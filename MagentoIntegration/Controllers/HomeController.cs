@@ -1,0 +1,24 @@
+﻿using RestSharp;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Configuration;
+using System.Web.Mvc;
+using MagentoIntegration.Models;
+using Newtonsoft.Json;
+using System.Data;
+
+namespace MagentoIntegration.Controllers
+{
+    public class HomeController : Controller
+    {
+        // GET: Magento
+
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+    }
+}
